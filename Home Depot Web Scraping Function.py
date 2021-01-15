@@ -57,7 +57,7 @@ def get_sore_and_Price(store_id,internet_id):
 
 # In[ ]:
 
-
+# We can test the code by using follwing example:
 store_list = ['954', '907', '6917']
 test_list = ['302895490', '302895488', '100561401', '206809290']
 list1=[]
