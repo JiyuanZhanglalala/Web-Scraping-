@@ -27,8 +27,8 @@ def get_sore_and_Price(store_id,internet_id):
     else:
         
         a = store.find_element_by_class_name('sfstorelinks').find_element_by_tag_name('a')
-        time.sleep(random.randint(3,5))
-        a.click()
+        time.sleep(random.randint(3,5))   #time.sleep are pretening human behavior; human spend different time on different web. So this website will not recognize this as a bot.
+        a.click()                         #Randint gives us random integer 3 to 5
         time.sleep(random.randint(3,5))
     
     
