@@ -11,7 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 import random
 
 def get_sore_and_Price(store_id,internet_id):
-    driver = webdriver.Chrome('C:/Users/cunzh/Desktop/chromedriver.exe') ## you can delete this
+    driver = webdriver.Chrome('C:/Users/cunzh/Desktop/chromedriver.exe') ## you should change the path before you run
     start_page = driver.get("https://www.homedepot.com/l/")
     driver.find_element_by_id("storeSearchBox").send_keys(store_id)
     driver.find_element_by_class_name("sfSearchbox__button").click()
