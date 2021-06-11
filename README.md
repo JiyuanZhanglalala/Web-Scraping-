@@ -20,3 +20,5 @@ The addree wo download ChromeDrive is https://chromedriver.chromium.org/download
 # When you are runing the code, if you see this error message:
 This version of ChromeDriver only supports Chrome version 91
 Current browser version is 90.0.4430.85 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+Then you need go the erbsite above to download new version of the chrome driver
